@@ -1,0 +1,8 @@
+:root{
+    --primary2: #43B85F;
+    --gradprimary1 :linear-gradient(135deg, #81D569, #42B782);
+    --primary20: #EDFDEB;
+    --primary20_dark: #e3fbe085;
+    --container: #F4F4F4;
+    --white-O-30 :hsla(0, 0%, 100%, 0.3);
+}

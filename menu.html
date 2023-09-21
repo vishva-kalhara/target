@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="./boostrap/bootstrap.css">
+		<script src="./js/ui.js"></script>
+		<title>Menu</title>
+	</head>
+	<body class="body_menu">
+		<div class="menu_back">
+			<div class="menu_left">
+				<div class="m_left_close">
+					<button onclick="closeLfetMenu();" class="d-block d-md-none icon_flat_btn">
+						<img
+							src="./assets/x.svg"
+							width="24px"
+							height="24px"
+							alt=""
+						/>
+					</button>
+					<div class="logo">
+						<img src="./assets/Target.svg" height="28px" alt="" />
+					</div>
+				</div>
+                <div class="menu_item_list">
+                    <div class="menu_item">
+                        <input type="radio" id="rad_size_1" name="grp_menu_list" checked>
+                        <label for="rad_size_1">
+                            <div style="display: flex; align-items: center;">
+                                <img src="./assets/Menuico.svg" style="margin-right: 10px;" width="20px" height="20px" alt="">
+                                <div>
+                                    <div class="vert_radio_text" style="font-size: 16px;">Dashboard</div>
+                                    <!-- <div style="font-size: 14px; font-weight: 400; color: var(--black500);">+ Rs.350</div> -->
+                                </div>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="menu_item">
+                        <input type="radio" id="rad_size_2" name="grp_menu_list" >
+                        <label for="rad_size_2">
+                            <div style="display: flex; align-items: center;">
+                                <img src="./assets/Bag.svg" style="margin-right: 10px;" width="20px" height="20px" alt="">
+                                <div>
+                                    <div class="vert_radio_text" style="font-size: 16px;">Cart</div>
+                                    <!-- <div style="font-size: 14px; font-weight: 400; color: var(--black500);">+ Rs.350</div> -->
+                                </div>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="menu_item">
+                        <input type="radio" id="rad_size_3" name="grp_menu_list" >
+                        <label for="rad_size_3">
+                            <div style="display: flex; align-items: center;">
+                                <img src="./assets/Saved.svg" style="margin-right: 10px;" width="20px" height="20px" alt="">
+                                <div>
+                                    <div class="vert_radio_text" style="font-size: 16px;">Saved Items</div>
+                                    <!-- <div style="font-size: 14px; font-weight: 400; color: var(--black500);">+ Rs.350</div> -->
+                                </div>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="menu_item">
+                        <input type="radio" id="rad_size_4" name="grp_menu_list" >
+                        <label for="rad_size_4">
+                            <div style="display: flex; align-items: center;">
+                                <img src="./assets/User.svg" style="margin-right: 10px;" width="20px" height="20px" alt="">
+                                <div>
+                                    <div class="vert_radio_text" style="font-size: 16px;">My Profile</div>
+                                    <!-- <div style="font-size: 14px; font-weight: 400; color: var(--black500);">+ Rs.350</div> -->
+                                </div>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="menu_item">
+                        <input type="radio" id="rad_size_5" name="grp_menu_list" >
+                        <label for="rad_size_5">
+                            <div style="display: flex; align-items: center;">
+                                <img src="./assets/Two-user.svg" style="margin-right: 10px;" width="20px" height="20px" alt="">
+                                <div>
+                                    <div class="vert_radio_text" style="font-size: 16px;">Manage Users</div>
+                                    <!-- <div style="font-size: 14px; font-weight: 400; color: var(--black500);">+ Rs.350</div> -->
+                                </div>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="menu_item">
+                        <input type="radio" id="rad_size_6" name="grp_menu_list" >
+                        <label for="rad_size_6">
+                            <div style="display: flex; align-items: center;">
+                                <img src="./assets/Document.svg" style="margin-right: 10px;" width="20px" height="20px" alt="">
+                                <div>
+                                    <div class="vert_radio_text" style="font-size: 16px;">Manage Orders</div>
+                                    <!-- <div style="font-size: 14px; font-weight: 400; color: var(--black500);">+ Rs.350</div> -->
+                                </div>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="menu_item">
+                        <input type="radio" id="rad_size_7" name="grp_menu_list" >
+                        <label for="rad_size_7">
+                            <div style="display: flex; align-items: center;">
+                                <img src="./assets/Presentation.svg" style="margin-right: 10px;" width="20px" height="20px" alt="">
+                                <div>
+                                    <div class="vert_radio_text" style="font-size: 16px;">Application</div>
+                                    <!-- <div style="font-size: 14px; font-weight: 400; color: var(--black500);">+ Rs.350</div> -->
+                                </div>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="menu_item">
+                        <input type="radio" id="rad_size_8" name="grp_menu_list" >
+                        <label for="rad_size_8">
+                            <div style="display: flex; align-items: center;">
+                                <img src="./assets/Turn off.svg" style="margin-right: 10px;" width="20px" height="20px" alt="">
+                                <div>
+                                    <div class="vert_radio_text" style="font-size: 16px;">Sign out</div>
+                                    <!-- <div style="font-size: 14px; font-weight: 400; color: var(--black500);">+ Rs.350</div> -->
+                                </div>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+			</div>
+			<div class="menu_right">
+				<div class="menu_right_header">
+					<button onclick="openLfetMenu();" class="d-block d-md-none icon_flat_btn">
+						<img
+							src="./assets/Menu.svg"
+							width="24px"
+							height="24px"
+							alt=""
+						/>
+					</button>
+					<div class="m_header_text">My Profile</div>
+				</div>
+                <input type="text" class="txt_input_2" placeholder="John">
+			</div>
+		</div>
+	</body>
+</html>

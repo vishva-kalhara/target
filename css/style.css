@@ -1,0 +1,103 @@
+@import url("./static.css");
+@import url("./layout.css");
+@import url("./menu.css");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+	transition: all 0.5s;
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+}
+
+.icon_flat_btn {
+	border-radius: 50%;
+	border: none;
+	background-color: transparent;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 14px;
+}
+
+.icon_flat_btn:hover {
+	/* background-color: transparent; */
+	background-color: var(--primary20_dark);
+
+	cursor: pointer;
+	border: none;
+	/* color: black; */
+}
+
+.icon_flat_btn:focus {
+	background-color: var(--primary20);
+	cursor: pointer;
+	border: none;
+}
+
+.menu_item {
+	display: inline-block;
+	position: relative;
+	/* margin-right: 6px; */
+	width: 100%;
+}
+
+.vert_radio_text {
+	color: #fff;
+	/* margin-left: px; */
+}
+
+.menu_item > input[type="radio"] {
+	visibility: hidden;
+	position: absolute;
+}
+
+.menu_item > label {
+	width: 100%;
+	padding: 13px 18px;
+	background-color: transparent;
+	/* border: 2px solid var(--orange150); */
+	/* border: solid 1px #ccc; */
+	cursor: pointer;
+	/* border-radius: 10px; */
+}
+
+.menu_item > label:hover {
+	background-color: var(--white-O-30);
+}
+
+.menu_item > input[type="radio"]:checked + label {
+	background-color: var(--white-O-30);
+	/* color: var(--black900); */
+}
+
+/* .menu_item > input[type=radio]:checked  .vert_radio_text{
+    color: var(--black900); */
+/* color: var(--black600);
+} */
+
+.txt_input_2 {
+	border: none;
+	border-radius: 5px;
+	background: #F6F6F6;
+    height: 44px;
+    padding: 0 12px 0 16px;
+}
+
+.txt_input_2:hover {
+	border: none;
+	border-radius: 5px;
+	background: #edfdeb;
+    height: 44px;
+    padding: 0 12px 0 16px;
+}
+
+.txt_input_2:focus {
+	border: none;
+    outline: none;
+	border-radius: 5px;
+	border-bottom: 3px solid var(--primary2, #43b85f);
+	background: #edfdeb;
+    height: 44px;
+    padding: 0 12px 0 16px;
+}
